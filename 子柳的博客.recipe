@@ -1,0 +1,42 @@
+#!/usr/bin/python
+# encoding: utf-8
+
+from calibre.web.feeds.recipes import BasicNewsRecipe
+
+class Zi_Liu_De_Blog(BasicNewsRecipe):
+    title = '子柳的博客'
+    description = u'子柳的博客'
+    __author__ = '子柳'
+    language = 'zh'
+    encoding = 'utf-8'
+
+    content_regex = '^.*articalContent.*$'
+    keep_only_tags = [
+        dict(name='div', attrs={'class':'articalTitle'}),
+        dict(name='div', attrs={'class':'sina_keyword_ad_area2'}),
+        dict(name='div', attrs={'class':re.compile(content_regex, re.IGNORECASE)})
+    ]
+    # time_regex = '^.*time.*$'
+    # remove_tags = [dict(name='span', attrs={'class':re.compile(time_regex, re.IGNORECASE)})]
+    no_stylesheets = True
+    remove_javascript = True
+    auto_cleanup = True
+    auto_cleanup_keep = '//div[@class="articalTitle"]'
+    max_articles_per_feed = 999
+
+    def parse_index(self):
+        site = 'http://blog.sina.com.cn'
+        page = site +'/s/articlelist_1664227735_0_'
+        start = 1
+        end = 2
+        articles = []
+        for p in range(start, end + 1) :
+            soup = self.index_to_soup(page + str(p) + '.html')
+            links = soup.findAll("span",{"class":"atc_title"})
+            for link in links:
+                title = link.a.contents[0].strip()
+                url = link.a.get("href")
+                a = {'title': title , 'url':url}
+                articles.append(a)
+        ans = [(self.title, articles)]
+        return ans
