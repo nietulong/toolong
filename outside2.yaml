@@ -22,16 +22,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 001-JiChang, server: www.whoer.net, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 002-JiChang, server: www.iplocation.net, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 003-JiChang, server: alejandracaiccedo.com, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 004-JiChang, server: iplocation.io, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 005-JiChang, server: www.boba88slot.com, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 006-JiChang, server: www.wto.org, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 007-JiChang, server: shopify.com, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 008-JiChang, server: gur.gov.ua, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 009-JiChang, server: icook.tw, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
-  - {name: 010-JiChang, server: fbi.gov, port: 80, client-fingerprint: random, type: vless, uuid: 1ead0bcd-5387-4eaa-a1c7-0f1e5d204e59, tls: false, tfo: false, servername: jichang.61073736.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jichang.61073736.workers.dev}}}
   - {name: vpn.198409.xyz凤凰山2, server: 104.17.113.93, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
   - {name: vpn.198409.xyz凤凰山, server: 172.64.41.37, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
   - {name: vpn.198409.xyz电信, server: 172.64.53.28, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
@@ -44,16 +34,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 001-JiChang
-      - 002-JiChang
-      - 003-JiChang
-      - 004-JiChang
-      - 005-JiChang
-      - 006-JiChang
-      - 007-JiChang
-      - 008-JiChang
-      - 009-JiChang
-      - 010-JiChang
       - vpn.198409.xyz凤凰山2
       - vpn.198409.xyz凤凰山
       - vpn.198409.xyz电信
@@ -66,16 +46,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 001-JiChang
-      - 002-JiChang
-      - 003-JiChang
-      - 004-JiChang
-      - 005-JiChang
-      - 006-JiChang
-      - 007-JiChang
-      - 008-JiChang
-      - 009-JiChang
-      - 010-JiChang
       - vpn.198409.xyz凤凰山2
       - vpn.198409.xyz凤凰山
       - vpn.198409.xyz电信
@@ -88,16 +58,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 001-JiChang
-      - 002-JiChang
-      - 003-JiChang
-      - 004-JiChang
-      - 005-JiChang
-      - 006-JiChang
-      - 007-JiChang
-      - 008-JiChang
-      - 009-JiChang
-      - 010-JiChang
       - vpn.198409.xyz凤凰山2
       - vpn.198409.xyz凤凰山
       - vpn.198409.xyz电信
@@ -109,16 +69,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 001-JiChang
-      - 002-JiChang
-      - 003-JiChang
-      - 004-JiChang
-      - 005-JiChang
-      - 006-JiChang
-      - 007-JiChang
-      - 008-JiChang
-      - 009-JiChang
-      - 010-JiChang
       - vpn.198409.xyz凤凰山2
       - vpn.198409.xyz凤凰山
       - vpn.198409.xyz电信
@@ -130,16 +80,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 001-JiChang
-      - 002-JiChang
-      - 003-JiChang
-      - 004-JiChang
-      - 005-JiChang
-      - 006-JiChang
-      - 007-JiChang
-      - 008-JiChang
-      - 009-JiChang
-      - 010-JiChang
       - vpn.198409.xyz凤凰山2
       - vpn.198409.xyz凤凰山
       - vpn.198409.xyz电信
@@ -151,16 +91,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 001-JiChang
-      - 002-JiChang
-      - 003-JiChang
-      - 004-JiChang
-      - 005-JiChang
-      - 006-JiChang
-      - 007-JiChang
-      - 008-JiChang
-      - 009-JiChang
-      - 010-JiChang
       - vpn.198409.xyz凤凰山2
       - vpn.198409.xyz凤凰山
       - vpn.198409.xyz电信
@@ -189,16 +119,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 001-JiChang
-      - 002-JiChang
-      - 003-JiChang
-      - 004-JiChang
-      - 005-JiChang
-      - 006-JiChang
-      - 007-JiChang
-      - 008-JiChang
-      - 009-JiChang
-      - 010-JiChang
       - vpn.198409.xyz凤凰山2
       - vpn.198409.xyz凤凰山
       - vpn.198409.xyz电信
