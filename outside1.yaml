@@ -22,7 +22,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 233boy-tcp-158.101.75.15, server: 158.101.75.15, port: 62025, client-fingerprint: chrome, type: vmess, uuid: 296a0d31-bed6-4ebe-94d5-0fc053b89dcf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: vpn.172.64.41.37, server: 172.64.41.37, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
   - {name: vpn.172.64.53.28, server: 172.64.53.28, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
   - {name: vpn.172.64.157.126, server: 172.64.157.126, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
@@ -38,8 +37,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 233boy-tcp-158.101.75.15
-      - vpn.172.64.41.37
+       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
       - vpn.104.17.254.56
@@ -54,7 +52,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 233boy-tcp-158.101.75.15
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -70,7 +67,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 233boy-tcp-158.101.75.15
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -85,7 +81,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 233boy-tcp-158.101.75.15
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -100,7 +95,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 233boy-tcp-158.101.75.15
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -115,7 +109,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 233boy-tcp-158.101.75.15
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -147,7 +140,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 233boy-tcp-158.101.75.15
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
