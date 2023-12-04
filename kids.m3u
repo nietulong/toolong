@@ -51,3 +51,14 @@ https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVBRICSChinese.ru" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="News",TV BRICS Chinese (1080p) [Not 24/7]
 https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/NHK日本.png" group-title="国际",NHK世界
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CNA-NEWS.png" group-title="国际",CNA新闻
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/trial/m3u/main/logo/Taiwan_Plus.jpg" group-title="国际" ,Taiwan Plus
+https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/trial/m3u/main/logo/TRT_World.jpg" group-title="国际" ,TRT World
+https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-id="7183" tvg-name="aljazeeraEnglish" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/半岛新闻.png" group-title="国际",半岛新闻
+http://live-hls-web-aje.getaj.net/AJE/01.m3u8
