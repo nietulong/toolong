@@ -163,17 +163,7 @@
     "changeable" : 1,
     "ext" : "https://www.czzy77.com/",
     "jar" : "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1709930083738/fan.txt;md5;9fdf355f7d803698900ccf4ceb4626cb"
-  }, {
-    "key" : "77",
-    "name" : "\uD83D\uDC52七七┃秒播",
-    "type" : 3,
-    "api" : "csp_Kunyu77",
-    "timeout" : 15,
-    "searchable" : 1,
-    "quickSearch" : 1,
-    "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1709930083738/fan.txt;md5;9fdf355f7d803698900ccf4ceb4626cb"
-  }, {
+  },{
     "key" : "DiDuan",
     "name" : "⏮️低端┃外剧",
     "type" : 3,
@@ -470,21 +460,7 @@
     "quickSearch" : 0,
     "ext" : "http://131.186.45.220:4567/ali/token/7c0889e8f42140f09634f055f8a52d55+4k|auto|fhd",
     "jar" : "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1709930083738/fan.txt;md5;9fdf355f7d803698900ccf4ceb4626cb"
-  }, {
-    "key" : "Biliych",
-    "name" : "\uD83C\uDD71明星┃演唱会",
-    "type" : 3,
-    "api" : "csp_Bili",
-    "style" : {
-      "type" : "rect",
-      "ratio" : 1.597
-    },
-    "searchable" : 1,
-    "quickSearch" : 0,
-    "changeable" : 0,
-    "ext" : "https://agit.ai/fantaiying/fty/raw/branch/master/ext/biliych.json",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1709930083738/fan.txt;md5;9fdf355f7d803698900ccf4ceb4626cb"
-  }, {
+  },{
     "key" : "dr_兔小贝",
     "name" : "\uD83D\uDCDA儿童┃启蒙",
     "type" : 3,
