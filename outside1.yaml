@@ -22,8 +22,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 甲骨文, server: 131.186.45.220, port: 17546, client-fingerprint: chrome, type: vmess, uuid: 94beba06-ad46-42ba-aecc-bd823266afa1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: vpn.172.64.41.37, server: 172.64.41.37, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
+   - {name: vpn.172.64.41.37, server: 172.64.41.37, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
   - {name: vpn.172.64.53.28, server: 172.64.53.28, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
   - {name: vpn.172.64.157.126, server: 172.64.157.126, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
   - {name: vpn.104.17.254.56, server: 104.17.254.56, port: 443, client-fingerprint: chrome, type: vless, uuid: 4776bbc0-246f-4d95-9635-b64e1d1141de, tls: true, tfo: false, servername: vpn.198409.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.198409.xyz}}}
@@ -38,7 +37,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 甲骨文
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -54,7 +52,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 甲骨文
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -70,7 +67,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 甲骨文
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -85,7 +81,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 甲骨文
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -100,7 +95,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 甲骨文
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -115,7 +109,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 甲骨文
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
@@ -147,7 +140,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 甲骨文
       - vpn.172.64.41.37
       - vpn.172.64.53.28
       - vpn.172.64.157.126
